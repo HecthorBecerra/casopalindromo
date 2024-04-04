@@ -14,11 +14,7 @@ public class Palindromo {
 
     public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese la palabra: ");
-        String respuesta = scanner.nextLine();
-        boolean esPalindromo = verificadorPalindromo(respuesta);
-        System.out.println("La cadena " + respuesta + " ¿Es un palindromo?: " + esPalindromo);
+        System.out.println(verificadorPalindromo("anita lava la tina"));
 
     }
 

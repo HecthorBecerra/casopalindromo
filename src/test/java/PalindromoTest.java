@@ -43,4 +43,14 @@ class PalindromoTest {
     void palindromoMayusculas() {
         assertTrue(Palindromo.verificadorPalindromo("Oso"));
     }
+
+    @Test
+    void stringVacia() {
+        assertTrue(Palindromo.verificadorPalindromo(""));
+    }
+    @Test
+    void caracterUnico() {
+        assertTrue(Palindromo.verificadorPalindromo("a"));
+    }
+
 }
