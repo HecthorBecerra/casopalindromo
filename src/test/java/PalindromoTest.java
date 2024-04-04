@@ -26,7 +26,7 @@ class PalindromoTest {
 
     @Test
     void noPalindromo() {
-        assertTrue(Palindromo.verificadorPalindromo("caso de palindromos"));
+        assertFalse(Palindromo.verificadorPalindromo("caso de palindromos"));
     }
 
     @Test
@@ -39,4 +39,8 @@ class PalindromoTest {
         assertTrue(Palindromo.verificadorPalindromo("121"));
     }
 
+    @Test
+    void palindromoMayusculas() {
+        assertTrue(Palindromo.verificadorPalindromo("Oso"));
+    }
 }
