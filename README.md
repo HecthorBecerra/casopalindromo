@@ -2,6 +2,21 @@ Caso Palíndromos - Pruebas Unitarias
 ====================================
 Se necesita saber si el input entregado a un método es o no un palíndromo, se ha entregado un ejemplo del codigo en javascript, por lo que el presente proyecto se implementara en codigo java.
 
+Ejemplo:
+
+```js
+function esPalindromo(cadena) {
+
+let resultado = "";
+
+resultado = cadena.split('').reverse().join('');
+
+return cadena === resultado;
+
+}
+```
+
+
 ### ¿Que hace el metodo?
 
 En el codigo presentado en JavaScript la funcion toma una cadena y devuelve el valor booleano si la cadena es un palindromo o no
