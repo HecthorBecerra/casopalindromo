@@ -15,9 +15,28 @@ class PalindromoTest {
     }
 
     @Test
-    void verificadorPalindromo() {
-
-
-
+    void conPalindromo() {
+        assertTrue(Palindromo.verificadorPalindromo("oso"));
     }
+
+    @Test
+    void palindromoConEspacios() {
+        assertTrue(Palindromo.verificadorPalindromo("anita lava la tina"));
+    }
+
+    @Test
+    void noPalindromo() {
+        assertTrue(Palindromo.verificadorPalindromo("caso de palindromos"));
+    }
+
+    @Test
+    void seriesNumeros() {
+        assertFalse(Palindromo.verificadorPalindromo("231"));
+    }
+
+    @Test
+    void numeroSimetrico() {
+        assertTrue(Palindromo.verificadorPalindromo("121"));
+    }
+
 }
