@@ -16,9 +16,9 @@ En el codigo presentado en JavaScript la funcion toma una cadena y devuelve el v
 ### ¿Como lo uso?
 
 Para que se pueda ocupar la funcion habria que realizar una impresion en pantalla de la funcion con una cadena dentro. Por Ejemplo:
-
+```js 
 console.log(esPalindromo("oso"))
-
+```
 ### ¿Como funciono en java?
 
 Al tener el mismo funcionamiento que el codigo JavaScript, se mantuvieron los errores que pudo contener en dicho lenguaje, se realizaron pruebas unitarias para poder ubicar esos errores y mejorar el metodo para aumentar la robustes a la hora de ingresa una cadena.
